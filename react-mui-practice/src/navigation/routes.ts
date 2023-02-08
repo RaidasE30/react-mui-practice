@@ -1,0 +1,25 @@
+const routes = {
+  HomePage: '/',
+  TypographyPage: '/typography',
+  ButtonPage: '/buttons',
+  RadioButtonPage: '/radio',
+  CheckBoxPage: '/checkbox',
+  TextFieldPage: '/text',
+  SelectPage: '/select',
+  SwitchPage: '/switch',
+  RatingPage: '/rating',
+  AutocompletePage: '/autocomplete',
+  LayoutPage: '/layout',
+  CardPage: '/card',
+  AccordionPage: '/accordion',
+  ImageListPage: '/imagelist',
+  NavbarPage: '/navbar',
+  LinkPage: '/link',
+  BreadcrumbsPage: '/breadcrumbs',
+  DrawerPage: '/drawer',
+  SpeedDialPage: '/speeddial',
+  BottomNavigationPage: '/bottomnavigation',
+  AvatarPage: '/avatar',
+} as const;
+
+export default routes;
